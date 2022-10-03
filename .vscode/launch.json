@@ -4,11 +4,18 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Launch Chrome index",
+            "request": "launch",
+            "type": "chrome",
+            "url": "C:/Users/ASUS/Documents/SEAL/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
     {
-        "name": "Launch Chrome",
+        "name": "Launch Chrome portfolio",
         "request": "launch",
         "type": "chrome",
-        "url": "file:///C:/Users/ASUS/Documents/SEAL/Table.html",
+        "url": "C:/Users/ASUS/Documents/SEAL/portfolio.html",
         "webRoot": "${workspaceFolder}"
     },
 }
