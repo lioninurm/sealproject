@@ -7,3 +7,29 @@
     height: 100px;
     width: 400px;
 }
+
+.resume {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*default smartphone*/
+.resume > foto{
+    width: 100%;
+}
+
+/*tablet*/
+@media (min-width: 768px;){
+    .resume > foto{
+        width: 80%;
+    }
+}
+
+/*pc*/
+@media (min-width: 992px;){
+    .resume > foto{
+        width: 60%;
+    }
+}
